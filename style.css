@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.progress-bar{
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    margin-top: 350px;
+    border: 3px solid silver;
+}
+.progress{
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+    animation: progress 5s forwards cubic-bezier(0, 0, 0 ,0);
+}
+@keyframes progress{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
